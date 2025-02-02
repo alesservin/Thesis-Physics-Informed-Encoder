@@ -1,0 +1,5 @@
+jupyterlab
+numpy==1.26.3
+pandas
+matplotlib
+scikit-learn
