@@ -12,7 +12,7 @@ docker build -t "thesis_physics_informed_encoders" .
 
 ## Run a Docker Container from the Image, running Jupyter Lab
 ```
-docker run -p 8888:8888 thesis_physics_informed_encoders
+docker run --gpus all -p 8888:8888 thesis_physics_informed_encoders 
 ```
 
 In the console, look for the URL starting with http://127.0.0.1:8888/lab?token=, copy the full URL and navigate to it on your browser. You should be able to load Jupyter Lab.
