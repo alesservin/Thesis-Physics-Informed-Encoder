@@ -20,6 +20,7 @@ ipython_config.py
 # customer ignores
 data/
 Backups/
+Backup/
 results/
 
 *.zip
